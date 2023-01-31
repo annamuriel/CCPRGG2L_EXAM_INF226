@@ -75,7 +75,7 @@ public class Regex {
         String email = scan.nextLine();
 
         // Provide regex pattern
-        pattern = Pattern.compile("[0-4[a-zA-Z]{10,}(@gmail.com)");
+        pattern = Pattern.compile("[0-4[a-zA-Z._]{10,}(@gmail.com)");
 
         match = pattern.matcher(email);
 
