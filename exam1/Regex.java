@@ -205,7 +205,7 @@ public class Regex {
         // 1. Remove all special characters in the tweet.
 
         // Provide the regex pattern
-        tweet = tweet.replaceAll("[^a-zA-Z0-9]//g", "");
+        tweet = tweet.replaceAll("[^a-zA-Z0-9\s]", "");
 
         System.out.println(tweet);
 
